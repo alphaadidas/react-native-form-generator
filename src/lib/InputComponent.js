@@ -207,5 +207,5 @@ export class InputComponent extends React.Component{
 InputComponent.propTypes = {
   labelStyle: Text.propTypes.style,
   inputStyle: TextInput.propTypes.style,
-  containerStyle: View.propTypes.style
+  containerStyle: ViewPropTypes.style
 }
